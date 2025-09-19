@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "TimerFont"; /* Give your font a descriptive name */
+  src: url("/CursedTimerUlil-Aznm.ttf") format("woff2"); /* Path to your font file */
+  font-weight: normal; /* Define font weight if applicable (e.g., normal, bold, 400, 700) */
+  font-style: normal; /* Define font style if applicable (e.g., normal, italic) */
+  /* Add other descriptors like font-display, unicode-range if needed */
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #080001;
+    padding: 10px 0px 0px 0px; 
+    width: 155px;
+    height: 120px;
+    margin: 5px 0px 20px 0px;
+    border-radius: 5px;
+    color: #F94F6D;
+    font-family: TimerFont;
+    font-size: 70px;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+h3 {
+    margin: 40px 0px 5px 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    font-size: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    color: #9AABD8;
+    background: none;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    font-family: TimerFont;
+}
